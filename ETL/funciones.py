@@ -8,7 +8,7 @@ from sklearn.impute import KNNImputer
 import pymysql
 import os
 from dotenv import load_dotenv
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 
 def load_file(file_name):
     """
@@ -207,8 +207,9 @@ def create_risk_score(df):
 # %%
 def load_data(df):
     """
-    Crea la conexión a la base de datos,
-    divide el DataFrame en las tablas del modelo
+    Crea la base de datos si no existe,
+    establece la conexión,
+    divide el DataFrame en tablas
     y realiza la carga en SQL.
     """
 
@@ -219,10 +220,16 @@ def load_data(df):
     db_password = os.getenv("db_password")
     db_name = os.getenv("db_name")
 
+    engine_server = create_engine(
+        f"mysql+pymysql://{db_user}:{db_password}@{db_host}"
+    )
+
+    with engine_server.connect() as conn:
+        conn.execute(text(f"CREATE DATABASE IF NOT EXISTS {db_name};"))
+
     engine = create_engine(
         f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}"
     )
-
 
     employees_df = df[
         [
@@ -283,8 +290,7 @@ def load_data(df):
     satisfaction_scores_df.to_sql("satisfaction_scores", engine, if_exists="replace", index=False)
     attrition_risk_df.to_sql("attrition_risk", engine, if_exists="replace", index=False)
 
-
-    print("Datos cargados correctamente en la base de datos.")
+    print(f"Datos cargados correctamente en la base de datos '{db_name}'.")
 
 # %%
 def run_etl():

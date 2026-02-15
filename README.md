@@ -1,6 +1,6 @@
 # 🧠 Proyecto Módulo 3 – Retención de Talentos
 
-**Optimización de Talento y Análisis de Rotación de Empleados – Proyecto Módulo 3**
+## Optimización de Talento y Análisis de Rotación de Empleados – Proyecto Módulo 3
 
 Proyecto de análisis de datos de Recursos Humanos desarrollado en el marco del **Módulo 3** del bootcamp de **Adalab**.  
 El objetivo del proyecto es analizar los factores que influyen en la **satisfacción laboral y la rotación de empleados**, utilizando técnicas de **análisis exploratorio de datos, transformación, visualización y diseño de bases de datos**.

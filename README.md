@@ -220,8 +220,7 @@ Este script realiza automáticamente:
 
 ## 🚀 Posibles mejoras futuras
 
-- Creación de modelos predictivos de rotación  
-- Automatización completa del pipeline con ETL  
+- Creación de modelos predictivos de rotación   
 - Visualizaciones interactivas (Tableau / Power BI)  
 - Segmentación avanzada de empleados  
 - Validación del `RiskScore` con modelos de ML  

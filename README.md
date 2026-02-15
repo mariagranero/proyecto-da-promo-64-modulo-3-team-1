@@ -182,7 +182,7 @@ pip install -r requirements.txt
 4. Ejecutar todas las celdas para reproducir el análisis completo.
 
 
-#### Opción 2 – Usar dataset final limpio.
+#### Opción 2 – Usar dataset final limpio
 
 1. Cargar directamente el archivo `df_hr_clean.csv`.
 2. Explorar las visualizaciones e indicadores ya creados.

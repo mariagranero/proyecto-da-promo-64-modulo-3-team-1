@@ -148,22 +148,25 @@ proyecto-da-promo-64-modulo-3-team-1/
 #### Opción 1 – Ejecutar todo desde cero
 
 1. Clonar el repositorio:
+
 git clone https://github.com/mariagranero/proyecto-da-promo-64-modulo-3-team-1.git
 cd proyecto-da-promo-64-modulo-3-team-1
 
 2. Crear entorno virtual e instalar dependencias:
+
 python -m venv venv
 source venv/bin/activate      # Mac/Linux
 venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 
 3. Ejecución del análisis:
+
    - `01_EDA.ipynb`
    - `02_Limpieza_transformación.ipynb`
    - `03_Análisis.ipynb`
    - `04_Visualizaciones.ipynb`
 
-3. Ejecutar todas las celdas para reproducir el análisis completo.
+4. Ejecutar todas las celdas para reproducir el análisis completo.
 
 
 #### Opción 2 – Usar dataset final limpio.

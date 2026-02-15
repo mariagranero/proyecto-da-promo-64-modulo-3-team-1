@@ -102,7 +102,6 @@ Ubicados en la carpeta `ETL/`:
 ---
 
 ## 🗂️ Estructura del repositorio
-
 ```text
 proyecto-da-promo-64-modulo-3-team-1/
 │
@@ -128,8 +127,7 @@ proyecto-da-promo-64-modulo-3-team-1/
 ├── hr.csv
 ├── README.md
 └── requirements.txt
-
-
+```
 ---
 
 ## ▶️ Pasos para configurar
@@ -254,6 +252,7 @@ Aquí sus redes sociales:
 * **María Granero**
   * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mar%C3%ADa-granero-l%C3%B3pez/)
   * [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/mariagranero)
+
 
 
 

@@ -110,8 +110,6 @@ proyecto-da-promo-64-modulo-3-team-1/
 │ ├── pycache/
 │ │ ├── funciones.cpython-312.pyc
 │ │ └── funciones.cpython-314.pyc
-│ │
-│ ├── .env
 │ ├── .env.example
 │ ├── .gitignore
 │ ├── funciones.py

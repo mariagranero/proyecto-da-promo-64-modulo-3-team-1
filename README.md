@@ -154,9 +154,17 @@ cd proyecto-da-promo-64-modulo-3-team-1
 
 2. Crear entorno virtual e instalar dependencias:
 
+# Crear entorno virtual
 python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
+
+# Activar entorno
+# Mac/Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+Instalar dependencias
 pip install -r requirements.txt
 
 3. Ejecución del análisis:
@@ -176,20 +184,20 @@ pip install -r requirements.txt
 3. Analizar el `RiskScore` y la rotación de empleados.
 
 
-Opción 3 – Ejecutar pipeline ETL
+#### Opción 3 – Ejecutar pipeline ETL
 
 Desde la carpeta ETL/, ejecutar:
 `python main.py`
 
 Este script realiza automáticamente:
 
-Extracción de datos
+- Extracción de datos
 
-Transformación
+- Transformación
 
-Creación de tablas
+- Creación de tablas
 
-Carga en la base de datos
+- Carga en la base de datos
 
 ---
 

@@ -7,6 +7,13 @@ El objetivo del proyecto es analizar los factores que influyen en la **satisfacc
 
 La empresa ficticia **Mupa Healthcare** nos contrata para identificar patrones clave que ayuden a **reducir la rotación y mejorar la retención del talento**.
 
+
+## 🏢 ¿Quién es Mupa Healthcare?
+
+**Mupa Healthcare**, es una compañía líder en UK especializada en salud y bienestar, fundada en 1985.
+Ofrece seguros de salud, gestión hospitalaria, clínicas dentales y residencias de mayores, caracterizándose por un modelo de atención integral y digital. 
+
+
 ---
 
 ## 👥 Equipo y Roles
@@ -30,12 +37,6 @@ Analizar los datos de empleados de **Mupa Healthcare** para identificar los fact
 - Crear **indicadores de riesgo** para anticipar la rotación  
 - Proponer métricas accionables para la optimización del talento  
 
----
-
-## 🏢 ¿Quién es Mupa Healthcare?
-
-Mupa Healthcare es una compañía líder en UK especializada en salud y bienestar, fundada en 1985.  
-Ofrece seguros de salud, gestión hospitalaria, clínicas dentales y residencias de mayores, caracterizándose por un modelo de atención integral y digital.
 ---
 
 ## 🔄 Flujo general del proyecto

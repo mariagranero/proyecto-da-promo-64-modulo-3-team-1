@@ -154,10 +154,22 @@ cd proyecto-da-promo-64-modulo-3-team-1
 
 2. Crear entorno virtual e instalar dependencias:
 
+### Crear y activar entorno virtual, instalar dependencias
+
+```
+# Crear entorno virtual
 python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
+
+# Activar entorno
+# Mac/Linux
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+# Instalar dependencias
 pip install -r requirements.txt
+```
 
 
 3. Ejecución del análisis:

@@ -34,7 +34,7 @@ Analizar los datos de empleados de **Mupa Healthcare** para identificar los fact
 
 ## 🏢 ¿Quién es Mupa Healthcare?
 
-**Mupa Healthcare**, es una compañía líder en UK especializada en salud y bienestar, fundada en 1985.
+Mupa Healthcare, es una compañía líder en UK especializada en salud y bienestar, fundada en 1985.
 Ofrece seguros de salud, gestión hospitalaria, clínicas dentales y residencias de mayores, caracterizándose por un modelo de atención integral y digital. 
 ---
 

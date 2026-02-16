@@ -107,7 +107,6 @@ proyecto-da-promo-64-modulo-3-team-1/
 │
 ├── ETL/
 │ ├── pycache/
-│ │ ├── funciones.cpython-312.pyc
 │ │ └── funciones.cpython-314.pyc
 │ ├── .env.example
 │ ├── .gitignore

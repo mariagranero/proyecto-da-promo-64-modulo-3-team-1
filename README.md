@@ -66,9 +66,8 @@ Analizar los datos de empleados de **Mupa Healthcare** para identificar los fact
 - Storytelling de datos para negocio.
 
 ### Bases de datos
-- Diseño de base de datos relacional (MySQL Workbench).
-- Definición de tablas, claves primarias y foráneas (MySQL Workbench).
-- Inserción de datos desde Python.
+- Inserción de datos desde Python y creación automática de la estructura en MYSQLWorkbench.
+- Definición de la estructura en la ETL mediante una función.
 
 ---
 
@@ -120,10 +119,10 @@ proyecto-da-promo-64-modulo-3-team-1/
 │ ├── 01_EDA.ipynb
 │ ├── 02_Limpieza_transformación.ipynb
 │ ├── 03_Análisis.ipynb
-│ └── 04_Visualizaciones.ipynb
+│ ├──  04_Visualizaciones.ipynb
+│ ├── df_hr_clean.csv
+│ └── hr.csv
 │
-├── df_hr_clean.csv
-├── hr.csv
 ├── README.md
 └── requirements.txt
 ```

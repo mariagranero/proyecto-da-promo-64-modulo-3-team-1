@@ -20,8 +20,8 @@ La empresa ofrece seguros de salud, gestión hospitalaria, clínicas dentales y 
 
 | Miembro | Rol | Tareas principales |
 |------|-----|------------------|
-| Ana María Castro | Data Analyst | EDA, limpieza y transformación, feature engineering, análisis, indicadores de riesgo, visualizaciones |
-| Camila López | Risk Analyst | EDA, limpieza y transformación, análisis descriptivo, diseño BBDD y soporte ETL, visualizaciones |
+| Ana María Castro | Risk Specialist | EDA, limpieza y transformación, feature engineering, análisis, indicadores de riesgo, visualizaciones |
+| Camila López | Data Analyst | EDA, limpieza y transformación, análisis descriptivo, diseño BBDD y soporte ETL, visualizaciones |
 | María Granero | Scrum Master | EDA, análisis descriptivo, coordinación del equipo, análisis, documentación, storytelling de negocio, validación de insights |
 
 ---

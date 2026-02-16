@@ -1,6 +1,6 @@
 # 🧠 Proyecto Módulo 3 – Retención de Talentos
 
-## Optimización de Talento y Análisis de Rotación de Empleados – Proyecto Módulo 3
+## Optimización de Talento y Análisis de Rotación de Empleados
 
 Proyecto de análisis de datos de Recursos Humanos desarrollado en el marco del **Módulo 3** del bootcamp de **Adalab**.  
 El objetivo del proyecto es analizar los factores que influyen en la **satisfacción laboral y la rotación de empleados**, utilizando técnicas de **análisis exploratorio de datos, transformación, visualización y diseño de bases de datos**.
@@ -31,11 +31,11 @@ La empresa ofrece seguros de salud, gestión hospitalaria, clínicas dentales y 
 Analizar los datos de empleados de **Mupa Healthcare** para identificar los factores que influyen en la **rotación (Attrition)** y la **satisfacción laboral**, con el fin de apoyar la toma de decisiones estratégicas en RRHH.
 
 ### Objetivos específicos
-- Analizar la **rotación de empleados** y su relación con variables clave  
-- Identificar factores asociados a **alto riesgo de abandono**  
-- Evaluar satisfacción laboral, entorno y equilibrio vida-trabajo  
-- Crear **indicadores de riesgo** para anticipar la rotación  
-- Proponer métricas accionables para la optimización del talento  
+- Analizar la **rotación de empleados** y su relación con variables clave.  
+- Identificar factores asociados a **alto riesgo de abandono**. 
+- Evaluar satisfacción laboral, entorno y equilibrio vida-trabajo. 
+- Crear **indicadores de riesgo** para anticipar la rotación.  
+- Proponer métricas accionables para la optimización del talento.  
 
 ---
 
@@ -54,21 +54,20 @@ Analizar los datos de empleados de **Mupa Healthcare** para identificar los fact
 ## 🧠 Tecnologías y contenidos aplicados
 
 ### Python
-- Manipulación de datos con **pandas** y **numpy**
-- Análisis exploratorio de datos (EDA)
-- Funciones personalizadas para categorización
-- Feature engineering
-- Exportación de datasets finales a CSV
+- Manipulación de datos con **pandas** y **numpy**.
+- Análisis exploratorio de datos (EDA).
+- Funciones personalizadas para categorización.
+- Feature engineering.
+- Exportación de datasets finales a CSV.
 
 ### Visualización
-- Visualizaciones con **matplotlib** y **seaborn**
-- Análisis descriptivo orientado a RRHH
-- Storytelling de datos para negocio
+- Visualizaciones con **matplotlib** y **seaborn**.
+- Análisis descriptivo orientado a RRHH.
+- Storytelling de datos para negocio.
 
 ### Bases de datos
-- Diseño de base de datos relacional (MySQL Workbench)
-- Definición de tablas, claves primarias y foráneas (MySQL Workbench)
-- Inserción de datos desde Python
+- Inserción de datos desde Python y creación automática de la estructura en MYSQLWorkbench.
+- Definición de la estructura en la ETL mediante una función.
 
 ---
 
@@ -108,7 +107,6 @@ proyecto-da-promo-64-modulo-3-team-1/
 │
 ├── ETL/
 │ ├── pycache/
-│ │ ├── funciones.cpython-312.pyc
 │ │ └── funciones.cpython-314.pyc
 │ ├── .env.example
 │ ├── .gitignore
@@ -120,10 +118,10 @@ proyecto-da-promo-64-modulo-3-team-1/
 │ ├── 01_EDA.ipynb
 │ ├── 02_Limpieza_transformación.ipynb
 │ ├── 03_Análisis.ipynb
-│ └── 04_Visualizaciones.ipynb
+│ ├──  04_Visualizaciones.ipynb
+│ ├── df_hr_clean.csv
+│ └── hr.csv
 │
-├── df_hr_clean.csv
-├── hr.csv
 ├── README.md
 └── requirements.txt
 ```
@@ -194,13 +192,13 @@ Desde la carpeta ETL/, ejecutar:
 
 Este script realiza automáticamente:
 
-- Extracción de datos
+- Extracción de datos.
 
-- Transformación
+- Transformación.
 
-- Creación de tablas
+- Creación de tablas.
 
-- Carga en la base de datos
+- Carga en la base de datos.
 
 ---
 
@@ -218,21 +216,21 @@ Este script realiza automáticamente:
 
 ## 🚀 Posibles mejoras futuras
 
-- Creación de modelos predictivos de rotación   
-- Visualizaciones interactivas (Tableau / Power BI)  
-- Segmentación avanzada de empleados  
-- Validación del `RiskScore` con modelos de ML  
+- Creación de modelos predictivos de rotación.  
+- Visualizaciones interactivas (Tableau / Power BI).  
+- Segmentación avanzada de empleados.  
+- Validación del `RiskScore` con modelos de ML.  
 
 ---
 
 ## 🎤 Presentación del proyecto
 
 La presentación incluye:
-- Contexto empresarial y objetivos  
-- Proceso de análisis de datos  
-- Visualizaciones clave  
-- Indicadores de riesgo de rotación  
-- Recomendaciones para RRHH  
+- Contexto empresarial y objetivos.  
+- Proceso de análisis de datos.  
+- Visualizaciones clave. 
+- Indicadores de riesgo de rotación.  
+- Recomendaciones para RRHH.  
 
 ---
 

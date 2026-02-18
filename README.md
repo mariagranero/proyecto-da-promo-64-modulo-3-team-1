@@ -88,6 +88,11 @@ Analizar los datos de empleados de **Mupa Healthcare** para identificar los fact
 - **04_Visualizaciones.ipynb**  
   Gráficos clave: salario por departamento, riesgo por puesto, etc.
 
+
+### Data
+
+- Csv´s cargados: df_hr_clean.csv/ hr.csv
+
 ---
 
 ### Scripts ETL (Bonus)
@@ -105,22 +110,22 @@ Ubicados en la carpeta `ETL/`:
 ```text
 proyecto-da-promo-64-modulo-3-team-1/
 │
+├── data/
+│ ├── hr.csv
+│ └── df_hr_clean.csv
+│
 ├── ETL/
 │ ├── pycache/
-│ │ └── funciones.cpython-314.pyc
 │ ├── .env.example
 │ ├── .gitignore
 │ ├── funciones.py
-│ ├── hr.csv
 │ └── main.py
 │
 ├── Notebooks/
 │ ├── 01_EDA.ipynb
 │ ├── 02_Limpieza_transformación.ipynb
 │ ├── 03_Análisis.ipynb
-│ ├──  04_Visualizaciones.ipynb
-│ ├── df_hr_clean.csv
-│ └── hr.csv
+│ └── 04_Visualizaciones.ipynb
 │
 ├── README.md
 └── requirements.txt

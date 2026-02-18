@@ -111,20 +111,21 @@ Ubicados en la carpeta `ETL/`:
 proyecto-da-promo-64-modulo-3-team-1/
 │
 ├── data/
-│ ├── hr.csv
-│ └── df_hr_clean.csv
+│ ├── df_hr_clean.csv
+│ └── hr.csv
 │
 ├── ETL/
 │ ├── pycache/
-│ ├── .env.example
-│ ├── .gitignore
+│ │ └── funciones.cpython-314.pyc
 │ ├── funciones.py
-│ └── main.py
+│ ├── main.py
+│ ├── .env.example
+│ └── .gitignore
 │
 ├── Notebooks/
 │ ├── 01_EDA.ipynb
 │ ├── 02_Limpieza_transformación.ipynb
-│ ├── 03_Análisis.ipynb
+│ ├── 03_Analisis.ipynb
 │ └── 04_Visualizaciones.ipynb
 │
 ├── README.md

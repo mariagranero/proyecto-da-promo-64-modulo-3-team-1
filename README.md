@@ -127,6 +127,7 @@ proyecto-da-promo-64-modulo-3-team-1/
 │ ├── 03_Analisis.ipynb
 │ └── 04_Visualizaciones.ipynb
 │
+├── Mupa Healthcare.pdf
 ├── README.md
 └── requirements.txt
 ```

@@ -152,7 +152,7 @@ proyecto-da-promo-64-modulo-3-team-1/
 1. Clonar el repositorio:
 
 git clone https://github.com/mariagranero/proyecto-da-promo-64-modulo-3-team-1.git
-cd proyecto-da-promo-64-modulo-3-team-1
+
 
 2. Crear entorno virtual e instalar dependencias:
 
